@@ -1,0 +1,11 @@
+/*genaral*/
+* {
+    margin=0;
+    padding:0;
+}
+
+/* partie header */
+header nav ul li {
+    dispplay: online-block;
+    margin: 20px;
+}
