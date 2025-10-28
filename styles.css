@@ -1,11 +1,160 @@
 /*genaral*/
-* {
-    margin=0;
+ * /* pour tout le site on applique */
+ 
+{   
+    margin:0;
     padding:0;
-}
+ }
+
+ body
+    {
+        font-family: 'Heebo', sans-serif, Arial, Helvetica;
+        font-size: 16px;
+        line-height: 1,6;
+        color: #333;
+    }
+
+    .wrapper /*conteneur invisible*/
+    {
+        width: 1200px;
+        margin: 0 auto;
+    }
+h1
+    {
+        font-family: 'heebo', sans-serif;
+        width: 186px;
+        height: 44px;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px 0;
+    }
+h2
+    {
+        font-family: 'heebo', sans-serif;
+        
+    }
+h3
+    {
+        font-family: 'heebo', sans-serif;
+       
+    }
+
+h4
+    {
+        font-family: 'heebo', sans-serif;
+    
+    }
+
+h5 
+    {
+        font-family: 'heebo', sans-serif;
+        color: #00A8CC;
+        float:right;
+    
+    }
+ul 
+    {
+         list-style: none;
+    }
+
+a 
+ 
+ {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .accueil-photo
+ {
+    margin-bottom: 0px;
+ }
+
 
 /* partie header */
-header nav ul li {
-    dispplay: online-block;
-    margin: 20px;
+
+header h1 
+{
+    float: left; 
+    margin-left: 10px;
+    margin-top:10px;
+    font-weight: 800;
 }
+header nav ul /* separation des elts du titre*/
+{
+    float: right;
+
+}
+header nav ul li /*alignement du titre et le separer de 20px*/
+{
+    display: inline-block;
+    margin-left: 10px;      
+    font-family: #444;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 0;
+    
+}
+header nav ul li a /* mettre le titre en majuscule*/
+{
+    text-transform: none;
+}
+
+/* premiere section accueil et photo*/
+
+#accueil-photo 
+
+.accueil
+
+div a
+
+{
+    float : right;
+    width: 243px;
+    height: 243px;
+    margin-top : 150px;
+    margin-left: 1056px;
+    object-fit: cover;
+
+}
+
+div 
+{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+/*partie articles*/
+
+#articles-view
+{
+    background-color: #edf7fa;
+    float: right;
+
+}
+
+
+.header1 nav ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/*partie works*/
+
+#works
+{
+   float : left;
+   margin-top: 100px;
+   max-width: 1200px;
+   margin-left: 0px;
+
+}
+
+
+
+
+
+
+
+

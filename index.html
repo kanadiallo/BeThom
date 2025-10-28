@@ -1,45 +1,109 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> <h1>bethom </h1> </title> <!--titre de ma page-->
-    <link href="style.css" rel="stylesheet"> <!--lien vers ma feuille de style-->
-<body> 
-    <header> <!--partie du menu de la,page-->
-        <h1> BeThom</h1>
-        <nav >
-            <ul>
-                <li><a href ="#accueil-photo">Accueil</a></li>
-                <li><a href ="#articles-view">Blog</a></li>
-                <li><a href ="#works">Portfolio</a></li>
-                <li><a href ="#contact">Contact</a></li>
-             </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bethom </title> <!--titre de ma page-->
+        <link href="styles.css" rel="stylesheet"> <!--lien vers ma feuille de style-->
+        <link href="https://fonts.google.com/specimen/Heebo" rel="stylesheet"> <!--lien vers ma police d'écriture-->
+    </head>
+    <body>
 
-    <section id="accueil-photo"> <!--section de l'accueil de la page-->
+        <!-- le header partie menu-->
+        <header> <!--partie du menu de la,page-->
+            <div class="wrapper"> <!--conteneur invisible -->
+                <h2> BeThom</h2> 
+                <nav >
+                    <ul>
+                        <li><a href ="#accueil-photo">Accueil</a></li>
+                        <li><a href ="#articles-view">Blog</a></li>
+                        <li><a href ="#works">Portfolio</a></li>
+                        <li><a href ="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    </section>
+        <main> <!--le corps du site-->
+            <!-- premiere partie de la page-->
+            <section id="accueil-photo"> <!--section de l'accueil de la page-->
+                 <div class=" wrapper"> <!--conteneur invisible -->
+                     <div class="accueil">
+                         <a href="images/thomas.png"><img src="images/thomas.png" alt="photo de thomas"></a>
+                        <h1>Hi, je suis Thomas,<br> Graphiste</h1>
+                        <p>Passionné par le code et le disign, j'aide les entreprises et les créateurs à développer des sites modernes, performants et adaptés à leurs besoins. Mon objectif  est de transformer vos idées en expériences numériques fluides et efficaces. </p>
+                    </div>
+                </div>
+            </section>
 
-    <section id="articles-view"> <!--section du blog de la page-->
+            <!-- seconde partie de la page-->
+            <section id="articles-view"> <!--section du blog de la page-->
+                <div class=" wrapper"> <!--conteneur invisible -->
+                    <h4> Articles ressents </h4>
+                    <h5>view</h5>
+            
+                    <div class="articles">
+                        <h3> Créer un disign system à,partir de zéro</h3>
+                        <p> Dans cet article, je partage mon approche pour mettre en place un disign system clair er efficace, afin de garantir la cohérence visuelle d'un prjet digital</p>
 
-    </section>
+                    </div>
+                    <div class="view">
+                        <h3> Créer des icônes pixel perfect dans Figma</h3>
+                        <p> Découvrer mes techniques pour concevoir des icônes nettes et précises dans Figma, adaptées aussi bien au web qu'aux applications mobiles. </p>
 
-    <section id="works"> <!--section du portfolio de la page-->
+                    </div>
+                </div>
+            </section>
 
-    </section>
+            <!-- troisieme partie de la page-->
+            <section id="works"> <!--section du portfolio de la page-->
+                <div class=" wrapper"> <!--conteneur invisible -->
+                    <h4> Travaux en vedette</h4>
 
-    <section id="contact"> <!--section de contact de la page-->
+                    <article> <!--partie des articles-->
+                        <div class ="disign">
+                            <a href =imgages/image1.png><img src="images/image1.png" alt="imgage1"></a>
+                            <h3> Disign de tableau de bord</h3>
+                            <p> Un projet de conception d'interface utilisateur pour une plateforme de gestion. L'objectif était de proposer un tableau de bord intuitif et esthétique.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class ="portrait">
+                            <a href =imgages/image2.png><img src="images/image2.png" alt="imgage2"></a>
+                            <h3> Portaits vibrants de 2020</h3>
+                            <p> Serie d'illustrations numériques réalisées avec une palette de couleurs odacieuses explorant l'identité et l'émotion et à travers le portrait. </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class ="typographie">
+                            <a href =imgages/image3.png><img src="images/image3.png" alt="imgage3"></a>
+                            <h3> 36 jours de typographie</h3>
+                            <p> Un projet créatif consistant à explorer et styliser les caractères de la typologie malayalam à travers une serie de visuels graphiques. </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
 
-    </section>
+            <!-- quatrieme partie de la page-->
+            <section id="contact"> <!--section de contact de la page-->
+                <div class="wrapper"> <!--conteneur invisible -->
+                    <div class="contact">
+                        <h4> Me contacter</h4>
+
+                    
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </body>
+
+    <!-- cinquieme (le footer) partie de la page-->
+    <footer>
 
 
-
-
-</body>
-
-<footer>
-
-</footer>
+    </footer>
 </html>
+
+
+
