@@ -1,0 +1,221 @@
+/*PARTIE GENERALE*/
+
+
+* /*pour tout le site appliquer longueur et largeur de 0 px pour maitriser la pixelisation*/
+    {
+    margin: 0px;
+    padding:0 px;
+    }
+
+body /*pour tout le site appliquer :*/
+    {
+        font-family: 'hebbo', 'sans-serif', arial; /*une ecriture de texte hebbo, ou sans-serif, ou arial*/
+        font-size: 16px; /*une taille d'ecriture de 16px*/
+        color: black; /*une couleur d'ecriture noir*/
+        margin: 30px; /*marge superieur de 30px*/
+    }
+
+.contener  /* taille du contener*/
+    {
+        width: 1360px;
+        margin: auto;
+    }
+
+.row  
+    {
+        width: 1360px;
+        margin: auto;
+    }
+
+.box 
+    {
+         width: 1360px;
+        margin: auto;
+    }
+
+
+
+/*HEADER*/
+/*partie du barre du menu*/
+
+.barre-de-navigation
+    {
+        display: flex;  /*separation  flexible du menu*/
+        font-weight: bold; /*police d'ecriture en gras*/
+        justify-content:space-between; /*separer la barre de navigation */
+        align-items: center;
+
+    }
+
+.texte-menu
+    {
+        list-style:none; /*effacer les points de la liste*/
+        display: flex;
+        gap: 45px;  /*espace entre les elts du menu*/
+    
+    }
+header nav ul li
+    {
+        display: inline-block; /*mettre le menu en horizontal*/
+    
+    }
+header nav ul li a
+    {
+        text-decoration:  none; /*effacer les sous-lignes de la liste*/
+        color: black;  /*coleur des elts du menu*/
+        font-size: 20px;  /*taille de lettre 20px*/
+        font-style: bold; /*styles d'ecriture en gras*/
+    }
+
+h1   /*le logo*/
+    {
+        font-weight: 700;
+        width: 186px;
+        height: 44px;
+   }
+
+.row {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h2.text-center /*le texte du titre de presentation*/
+    {
+    font-weight: 700;
+    font-size: 44px;
+    }
+
+.accueil-photo-right /*partie de la photo de l'en tete*/
+    {
+    width: 243px;
+    height: 243px;
+    border-radius:50%;
+    object-fit: cover;
+    }
+.accueil-photo-right a img  /*arrondi de la photo de thomas*/
+    {
+    width: 243px;
+    height:243px;
+    border-radius:50%;
+    object-fit:cover;
+    }
+
+.accueil-text-left /*largeur de la partie gauche de l'accueil*/
+    {
+        width: 680px;
+    }
+
+.accueil-photo-telecharger /*telecharger*/
+    {
+        color:white;
+        text-decoration: none;
+        margin: 45px;
+        padding: 5pxpx;
+        font-size: 20px;
+        border-radius: 5px;
+        background-color:rgb(233, 21, 21);
+    }
+
+.accueil-text-left p 
+    {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+.accueil-text-left h1
+    {
+        margin-bottom: 35px;
+    }
+
+h4  /*le sous-titre h4 articles et view*/
+    {
+        float: left;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 60px;
+        vertical-align: bottom;
+        color: #21243D;
+
+    }
+
+h5  /*le sous-titre h5 articles et view*/
+    {
+        float: right;
+        line-height: 100%;
+        size: 16px;
+        vertical-align: bottom;
+        color: #00A8CC;
+    }
+
+.articles   /*partie gauche de section articles et view, taille et coloration*/
+    {
+    width: 543px;
+    height: 265x;
+    background-color: white;
+    padding: 30px;
+    }
+
+.view       /*partie droite se la section articles et view, taille et coloration*/
+    {
+    width: 543px;
+    height: 265x;
+    background-color: white;
+    padding: 30px;
+    }
+
+#articles-view  /*partie article et coloration de fond*/
+    {
+        background-color: #edf7fa;
+        margin-bottom: 20px;
+    }
+
+h3 
+    {
+        font-size: 26px;
+    }
+
+.date 
+    {
+        font-size: 18px;
+    }
+
+.box img            /*les images de la partie box*/
+{
+   width: 246x;
+   height: 180px;
+   gap: 20px;
+   border-radius: 4px;
+}
+
+.works
+    {
+        margin-bottom: 30px;
+
+    }
+
+.box 
+    {
+        margin-top: 60px;
+    }
+
+
+.mestravaux     /*generalite sur mes travaux*/
+    {
+        display: flex;
+        gap: 65px;
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
