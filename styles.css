@@ -194,6 +194,13 @@ h3
 
 /*.................DEBUT de la 3eme PARTIE  WORKS........*/
 
+#works
+    {
+        margin:auto;
+        width: 1360px;
+    }
+
+
 .box img            /*les images de la partie box*/
 {
    width: 226;
@@ -202,15 +209,10 @@ h3
    border-radius: 4px;
 }
 
-#works
-    {
-    padding: 30px;
-
-    }
 
 .box 
     {
-        padding:30px;
+        padding: 35px 0;
     }
 
 
@@ -252,10 +254,14 @@ span.illustrations  /*commun à toutes les illustrations*/
 }
 
 /*.................FIN de la 3eme PARTIE WORKS.............*/
+
+/*.................DEBUT de la partie CONTACT..............*/
 #contact
     {
-        margin-top: 20px;
+        margin:auto;
+        width: 1360px;
     }
+
 
 #contact.row 
     {      /*glte du  bloc row*/
@@ -263,15 +269,8 @@ span.illustrations  /*commun à toutes les illustrations*/
     margin-top: 75px;
     justify-content: space-between;
     margin-top: 180px;
+    gap: 40px;
     }
-
-
-.mode-contact       /*partie droite se la section articles et view, taille et coloration*/
-    {
-    width: 50%;
-    height: 265x;
-    }
-
 
 .mode-contact       /*partie droite se la section articles et view, taille et coloration*/
     {
@@ -279,13 +278,128 @@ span.illustrations  /*commun à toutes les illustrations*/
     height: 265x;
     margin-bottom: 40px;
     }
-/*.................DEBUT de la partie CONTACT..............*/
+    
+.mode-contact h3 p 
+    {
+        line-height:30px;
+    }
+
+p a  /*paragraphe des reseaux sociaux*/
+    {
+        color: black;
+        line-height: 40px; /*espace entre les lignes */
+    }
 
 
+.adress 
+    {
+        line-height:30px;
+    }
 
+    form.adress /*le formulaire de contact*/
+    {
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        margin: auto;
+    }
+
+
+input#Envoyer /*le bouton envoyer du mail*/
+    {
+        background-color: rgb(19, 34, 39);
+        width: 530px;
+        height: 35px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+
+textarea#Message /*message*/
+    {
+        width: 528px;
+        height: 80px;
+         background-color: rgb(236, 230, 230);
+    }
+
+select#Budget /*budget*/
+    {
+        width: 530px;
+        height: 35px;
+         background-color: rgb(236, 230, 230);
+    }
+
+select#service /*service*/
+     {
+        width: 530px;
+        height: 35px;
+        background-color: rgb(236, 230, 230);
+    }
+
+input#name /*nom*/
+     {
+        width: 530px;
+        height: 35px;
+        background-color: rgb(236, 230, 230);
+    }
+
+
+input#email  /*email*/
+     {
+        width: 530px;
+        height: 35px;
+        background-color: rgb(236, 230, 230);
+    }
+
+.mode-contact h3
+    {
+        font-size: 26px;
+        padding: 30px 0;
+    }
+
+.reseaux
+    {
+        padding: 10px;
+    }
+
+
+label 
+    {
+        width: 530px;
+        height: 35px;
+    }
 
 /*..................FIN de la PARTIE CONTACT...............*/
 
+/*..................DEBUT du FOOTER........................*/
+
+* footer {
+    margin-top: 290px
+    
+}
+
+.logo-reseaux {
+    text-align: center;
+    margin-bottom: 20px;
+ 
+}
+
+.bas 
+    {
+        font-size: 16px;
+        font-weight: lighter;
+        font-family: 'hebbo', 'sans-serif', arial;
+        text-align: center;
+    }
+
+
+
+
+
+
+/*..................FIN du FOOTER...........................*/
+/*.......................FIN du SITE*/
 
 
 
